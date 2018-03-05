@@ -18,6 +18,7 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
   Install xammp server with > php7.0. <br />
   Create database named larticle in MySQL.<br />
   In your .env file, add the database name and passwod.<br />
+  terminal@project_location- npm install<br />
   To start your laravel back-end, enter the line from the terminal@project_location-<br/>
   php artisan serve
   Enter the following line from the terminal@project_location-<br/>
@@ -28,31 +29,3 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
   This adds 30 dummy records to the articles table.<br />
   Use Postman application and try GET, POST, PUT, DETE operations on project/api/article(s)/{req_type}.
 </p>
-
-## Endpoints
-
-### List all articles with links and meta
-``` bash
-GET api/articles
-```
-### Get single article
-``` bash
-GET api/article/{id}
-```
-
-### Delete article
-``` bash
-DELETE api/article/{id}
-```
-
-### Add article
-``` bash
-POST api/article
-title/body
-```
-
-### Update article
-``` bash
-PUT api/article
-article_id/title/body
-```
